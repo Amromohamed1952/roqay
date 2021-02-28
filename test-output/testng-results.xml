@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-22T12:24:21 EET" name="Default suite" finished-at="2021-02-22T12:24:30 EET" duration-ms="8782">
+    <groups>
+    </groups>
+    <test started-at="2021-02-22T12:24:21 EET" name="Default test" finished-at="2021-02-22T12:24:30 EET" duration-ms="8782">
+      <class name="tests.AddCustmerTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:11 EET" name="startDriver" finished-at="2021-02-22T12:24:21 EET" duration-ms="9929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="usercanlogin()[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:21 EET" name="usercanlogin" finished-at="2021-02-22T12:24:25 EET" duration-ms="3554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercanlogin -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:25 EET" name="screenshotOnFailure" finished-at="2021-02-22T12:24:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercanlogin status=SUCCESS method=AddCustmerTest.usercanlogin()[pri:0, instance:tests.AddCustmerTest@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserCanAddnewcustomer()[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:25 EET" name="UserCanAddnewcustomer" finished-at="2021-02-22T12:24:30 EET" depends-on-methods="tests.AddCustmerTest.usercanlogin" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddnewcustomer -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:30 EET" name="screenshotOnFailure" finished-at="2021-02-22T12:24:30 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddnewcustomer status=SUCCESS method=AddCustmerTest.UserCanAddnewcustomer()[pri:0, instance:tests.AddCustmerTest@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AddCustmerTest@1356d4d4]" started-at="2021-02-22T12:24:30 EET" name="stopDriver" finished-at="2021-02-22T12:24:30 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AddCustmerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
