@@ -2,7 +2,7 @@ package courses;
 
 public class ClassStaticVar {
 
-	static int age = 25 ; 
+	static int age = 26 ; 
 	
 	public static void testStatic() 
 	{
