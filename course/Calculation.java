@@ -2,7 +2,7 @@ package courses;
 
 public class Calculation {
 
-	int total0000000; 
+	int total; 
 
 	public void addition(int firstNum , int secondNum) 
 	{
