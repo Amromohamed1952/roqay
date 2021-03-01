@@ -5,7 +5,7 @@ public class ClassStaticVar {
 <<<<<<< HEAD
 	
 =======
-	static int age = 25000 ; 
+	static int age = 250001 ; 
 >>>>>>> 759373a3041e1eaccb05891f99e1118870f6d593
 	
 	public static void testStatic() 
